@@ -1,3 +1,30 @@
 // Calcular la hipotenusa de un triandulo
 //Autor: Gustavo Lejardi
 
+
+#include <iostream>
+using namespace std;
+
+const double A;
+const double B;
+
+int main()
+{
+
+	float hipotenusa;  //Definicion de hipotenusa en un triangulo.
+  
+
+	
+  hipotenusa=sqrt((A*A)+(B*B)); //Computacion de la hipotenusa.
+
+	
+
+	
+	cout << "La hipotenusa es" << hipotenusa << "de un triangulo." <<endl;
+	
+
+
+	return 0;
+
+
+}
